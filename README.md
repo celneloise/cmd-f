@@ -1,6 +1,6 @@
-# cmd-f
+# R U Okay
 
-**cmd-f** is a lovable, interactive mental health check-in platform inspired by [R U OK? Australia](https://www.ruok.org.au/). This prototype allows users to assess their mental health, evaluate risk levels, and provides connections to hotlines, free therapy, and wellness resources.
+**R U Okay** is a lovable, interactive mental health check-in platform inspired by [R U OK? Australia](https://www.ruok.org.au/). This prototype allows users to assess their mental health, evaluate risk levels, and provides connections to hotlines, free therapy, and wellness resources.
 
 ---
 
