@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 99%;
+    --foreground: 37 8% 34%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 37 8% 34%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 37 8% 34%;
+
+    --primary: 316 9% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 316 5% 95%;
+    --secondary-foreground: 37 8% 30%;
+
+    --muted: 316 4% 92%;
+    --muted-foreground: 37 6% 50%;
+
+    --accent: 316 7% 90%;
+    --accent-foreground: 37 8% 34%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 316 5% 88%;
+    --input: 316 5% 88%;
+    --ring: 316 9% 60%;
+
+    --radius: 0.75rem;
+
+    --warm: 316 9% 55%;
+    --warm-foreground: 0 0% 100%;
+    --success: 145 45% 42%;
+    --success-foreground: 0 0% 100%;
+    --warning: 25 80% 55%;
+    --warning-foreground: 0 0% 100%;
+    --crisis: 0 70% 50%;
+    --crisis-foreground: 0 0% 100%;
+
+    --sidebar-background: 316 4% 97%;
+    --sidebar-foreground: 37 8% 30%;
+    --sidebar-primary: 316 9% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 316 5% 92%;
+    --sidebar-accent-foreground: 37 8% 34%;
+    --sidebar-border: 316 5% 88%;
+    --sidebar-ring: 316 9% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Nunito', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Poppins', sans-serif;
+  }
+  .font-body {
+    font-family: 'Nunito', sans-serif;
+  }
+  .shadow-soft {
+    box-shadow: 0 4px 20px -4px hsl(37 8% 34% / 0.08);
+  }
+}
